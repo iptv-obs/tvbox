@@ -13,8 +13,8 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
      }
      ],
-	"sites":[
-		{
+"sites":[
+	{
 			"key": "豆瓣",
 			"name": "豆瓣",
 			"type": 3,
@@ -23,8 +23,16 @@
 			"changeable": 1,
 			"indexs":1,
 			"ext": "./lib/douban.json"
-		},
-		{
+	},
+{
+      "key": "py_央视片库",
+      "name": "📺央视片库",
+      "type": 3,
+      "playerType": 2,
+      "api": "py_cctv",
+      "ext": "./lib/央视片库.py"
+},
+{
 			"key": "网盘配置",
 			"name": "网盘及彈幕配置",
 			"type": 3,
